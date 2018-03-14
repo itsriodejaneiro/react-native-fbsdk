@@ -58,7 +58,7 @@ public class FBSDKPackage implements ReactPackage {
         );
     }
 
-    @Override
+    // Deprecated in RN 0.47.0
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
